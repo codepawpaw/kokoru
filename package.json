@@ -1,0 +1,53 @@
+{
+  "name": "kokoru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack-watch-server --config webpack.config.js --watch",
+    "build": "webpack-dev-server --inline",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js webpack --watch"
+  },
+  "author": "Jonathan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "enzyme": "^2.8.2",
+    "jasmine-core": "^2.6.2",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.3",
+    "react": "^15.5.4",
+    "react-addons-perf": "^15.4.2",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-test-renderer": "^15.5.4",
+    "redux": "^3.6.0",
+    "style-loader": "^0.18.2"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "net": "^1.0.2",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.0.0",
+    "webpack-watch-server": "^1.2.1",
+    "babel-register": "^6.26.0",
+    "babel": "^5.8.38",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "express-graphql": "^0.4.5",
+    "graphql": "^0.4.14",
+    "mongoose": "^4.3.5"
+  }
+}
