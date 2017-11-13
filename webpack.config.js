@@ -1,42 +1,25 @@
-const path = require('path');
+module.exports = function(env) {
+  const path = require('path');
 
-let webpackModule;
+  let webpackModule, webpackPlugin, webpackResolve;
 
-webpackModule = {
-  rules: [
-    {
-      test: /\.js$/,
-      exclude: /node_modules/,
-      use: {
-        loader: 'babel-loader',
-        options: {
-          presets: [
-            [ 'env', { spec: true } ],
-            ['react']
-          ],
-          plugins: ["transform-object-rest-spread"]
-        },
-      }
-    }
-  ]
-};
-
-webpackResolve = (
-  {
-    alias: {
-      containers: path.resolve(__dirname, "public/containers/")
-    }
+  if(!env) {
+      env = 'dev';
   }
-);
 
-module.exports = {
-    entry: './public/index.js',
-    output: {
-        path: path.resolve(__dirname, 'public/bin'),
-        filename: 'index.bundle.js'
-    },
-    watch: true,
-    module: webpackModule,
-    resolve: webpackResolve
-    
-};
+  webpackModule = require(`./webpack.module.config.${env}.js`);
+  webpackPlugin = require(`./webpack.plugin.config.${env}.js`);
+  webpackResolve = require('./webpack.resolve.config.js');
+
+  return {
+      entry: './public/index.js',
+      output: {
+          path: path.resolve(__dirname, 'public/bin'),
+          filename: 'index.bundle.js'
+      },
+      watch: true,
+      module: webpackModule,
+      plugins: webpackPlugin,
+      resolve: webpackResolve
+  };
+}

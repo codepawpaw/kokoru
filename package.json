@@ -6,17 +6,20 @@
   "scripts": {
     "build:dev": "webpack-watch-server --config webpack.config.js --watch",
     "build": "webpack-dev-server --inline",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js webpack --watch"
+    "start": "nodemon index.js webpack --watch",
+    "test": "karma start",
+    "test:ci": "yarn test -- -- --single-run",
+    "test:setup": "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16 export DISPLAY=:99.0 export JASMINE_BROWSER=chrome"
   },
   "author": "Jonathan",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.24.1",
+    "babel": "^5.8.38",
+    "babel-cli": "^6.26.0",
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-env": "^1.5.1",
-    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "css-loader": "^0.28.4",
     "enzyme": "^2.8.2",
     "jasmine-core": "^2.6.2",
@@ -32,22 +35,25 @@
     "react-redux": "^5.0.5",
     "react-test-renderer": "^15.5.4",
     "redux": "^3.6.0",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0"
   },
   "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "compression-webpack-plugin": "^0.4.0",
+    "cssnano": "^3.10.0",
     "ejs": "^2.5.7",
     "express": "^4.13.3",
+    "express-graphql": "^0.4.5",
+    "extract-text-webpack-plugin": "^2.1.2",
     "fs": "0.0.2",
+    "graphql": "^0.4.14",
+    "jasmine-node": "^1.14.5",
+    "mongoose": "^4.3.5",
     "net": "^1.0.2",
     "nodemon": "^1.12.1",
-    "webpack": "^3.0.0",
-    "webpack-watch-server": "^1.2.1",
-    "babel-register": "^6.26.0",
-    "babel": "^5.8.38",
-    "babel-cli": "^6.26.0",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "express-graphql": "^0.4.5",
-    "graphql": "^0.4.14",
-    "mongoose": "^4.3.5"
+    "postcss-calc": "^6.0.0",
+    "postcss-loader": "^2.0.6",
+    "qrious": "^4.0.2"
   }
 }

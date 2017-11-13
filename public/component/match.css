@@ -1,0 +1,19 @@
+.item {
+	position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all .5s linear;
+    cursor: pointer;
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+    transition-delay: .1s;
+    margin-left: 20px;
+    
+}

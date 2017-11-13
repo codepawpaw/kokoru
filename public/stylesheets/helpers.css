@@ -1,0 +1,24 @@
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

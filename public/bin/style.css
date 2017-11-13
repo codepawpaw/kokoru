@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font: 400 14px/1rem 'Open Sans', sans-serif;
+  background-color: #f2f6fc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1em;
+}.match__item {
+	position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    cursor: pointer;
+    -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    margin-left: 20px;
+    
+}.register__register-button {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.register__register-container {
+	-webkit-box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.05);
+	background-color: rgba(255, 255, 255, 0.96);
+	border-radius: 5px;
+	height: 500px;
+	width: 800px;
+}
+
+.register__container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+}
+
+.register__container > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.register__input {
+  margin-bottom: 5px;
+}
+
+.register__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 100%;
+}
+
+.register__wrapper-blue {
+  background-image: linear-gradient(141deg, #4FC3F7, #01579B);
+  color: #FFF;
+}
+
+.register__box {
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 320px;
+  margin: auto;
+}
+
+.register__welcome-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+.register__welcome-text {
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: -0.3px;
+  margin-bottom: 87px;
+}
+
+.register__title {
+  font-size: 18px;
+  line-height: 1.33em;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #000;
+  margin: auto;
+  width: 250px;
+}
+
+.register__image {
+  display: block;
+  margin: auto;
+}.helpers__text-right {
+  text-align: right;
+}
+
+.helpers__text-center {
+  text-align: center;
+}
+
+.helpers__text-left {
+  text-align: left;
+}
+
+.helpers__absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.helpers__icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon__i-bbm-logo {
+  width: 140px;
+  height: 48px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22140%22%20height%3D%2248%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M18.055%2038.98H36.05V.058H.06V38.98h17.995z%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20transform%3D%22translate(13.916%208.978)%22%3E%3Cmask%20id%3D%22b%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3Cpath%20fill%3D%22%230096D6%22%20d%3D%22M33.06.058v20.965c0%204.044-3.292%207.322-7.355%207.322H3.666L.06%2031.462h21.452l8.7%207.518.008-7.574c3.288-.416%205.83-3.209%205.83-6.594V5.6A6.634%206.634%200%200%200%2033.06.058%22%20mask%3D%22url(%23b)%22%2F%3E%3C%2Fg%3E%3Cpath%20fill%3D%22%23B0B7BB%22%20d%3D%22M39.62%2037.323c4.064%200%207.356-3.278%207.356-7.322V7.322C46.976%203.278%2043.684%200%2039.621%200H7.356C3.293%200%200%203.278%200%207.322V30c0%203.735%202.81%206.814%206.44%207.263l.01%209.68%207.526-6.505%203.606-3.116h22.039z%22%2F%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M39.51%202.151H7.398c-2.886%200-5.225%202.33-5.225%205.201V29.93c0%202.873%202.34%205.202%205.225%205.202h1.288l.007%206.839%207.914-6.839h22.905c2.885%200%205.225-2.329%205.225-5.202V7.352c0-2.872-2.34-5.201-5.225-5.201%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M18.785%2011.11c0%201.278-.831%202.653-3.75%202.653h-3.737l1.02-4.693h3.584c2.328%200%202.883%201.14%202.883%202.04zm9.656%200c0%201.278-.83%202.653-3.749%202.653h-3.735l1.02-4.693h3.584c2.328%200%202.88%201.14%202.88%202.04zm-10.95%207.064c0%201.274-.831%202.652-3.75%202.652h-3.736l1.019-4.696h3.584c2.329%200%202.883%201.143%202.883%202.044zm9.657%200c0%201.274-.83%202.652-3.75%202.652h-3.737l1.021-4.696h3.585c2.326%200%202.88%201.143%202.88%202.044zm10.103-2.865c0%201.277-.831%202.652-3.75%202.652h-3.736l1.02-4.695h3.585c2.326%200%202.881%201.142%202.881%202.043zm-1.393%207.355c0%201.274-.83%202.65-3.749%202.65h-3.736l1.02-4.691h3.584c2.328%200%202.881%201.14%202.881%202.04zM25.76%2025.527c0%201.274-.83%202.65-3.748%202.65h-3.737l1.02-4.695h3.586c2.326%200%202.88%201.14%202.88%202.045zM73.227%2036.59c-1.225%200-2.227-.777-2.227-2.182V14.366c0-1.368%201.002-2.144%202.227-2.144h5.233c5.307%200%208.684%201.922%208.684%206.73%200%202.366-1.299%203.993-2.932%204.992%202.45.924%204.343%202.81%204.343%205.584%200%204.695-2.933%207.061-9.501%207.061h-5.827zm2.226-14.2h3.303c2.45%200%203.971-.961%203.971-3.327%200-2.515-1.707-3.254-4.342-3.254h-2.932v6.581zm0%2010.317v-6.581h3.897c2.97%200%204.677.998%204.677%203.253%200%202.403-1.522%203.328-4.64%203.328h-3.934zm19.929%203.882c-1.224%200-2.227-.776-2.227-2.181V14.366c0-1.368%201.003-2.144%202.227-2.144h5.232c5.308%200%208.685%201.922%208.685%206.73%200%202.366-1.299%203.993-2.932%204.992%202.45.924%204.343%202.81%204.343%205.584%200%204.695-2.933%207.061-9.501%207.061h-5.827zm2.227-14.199h3.303c2.45%200%203.971-.961%203.971-3.327%200-2.515-1.707-3.254-4.343-3.254h-2.931v6.581zm0%2010.317h3.933c3.118%200%204.64-.925%204.64-3.328%200-2.255-1.708-3.253-4.676-3.253h-3.897v6.58zm27.201-3.882l-5.047-9.023v14.79c0%201.369-1.002%202.22-2.264%202.22-1.26%200-2.227-.851-2.227-2.22V14.44c0-1.627%201.077-2.44%202.376-2.44%201.596%200%202.486.961%203.191%202.181l6.792%2011.722%206.754-11.722c.743-1.256%201.56-2.181%203.118-2.181%201.373%200%202.412.813%202.412%202.44v20.153c0%201.368-.964%202.218-2.226%202.218-1.299%200-2.228-.85-2.228-2.218v-14.79l-5.12%209.022c-.706%201.294-1.374%202.144-2.747%202.144-1.41%200-2.04-.85-2.784-2.144z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-android {
+  width: 24px;
+  height: 24px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Cpath%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4.77%207.235a7.461%207.461%200%200%201%203.852-4.917L7.673.415a.285.285%200%201%201%20.511-.256l.956%201.917A7.388%207.388%200%200%201%2012%201.504a7.39%207.39%200%200%201%202.741.524l.932-1.87a.285.285%200%201%201%20.511.257l-.92%201.845a7.46%207.46%200%200%201%203.966%204.975H4.77zm-.111.573A7.528%207.528%200%200%200%204.572%209v10a2%202%200%200%200%202%202h.285v1a2%202%200%201%200%204%200v-1h2.857v1a2%202%200%201%200%204%200v-1.02A2%202%200%200%200%2019.431%2019V9h-.003a7.63%207.63%200%200%200-.087-1.192H4.66zM22%209a2%202%200%200%201%202%202v6a2%202%200%201%201-4%200v-6a2%202%200%200%201%202-2zM2%209a2%202%200%200%201%202%202v6a2%202%200%201%201-4%200v-6a2%202%200%200%201%202-2zm12-4.057a.572.572%200%201%200-.002-1.145A.572.572%200%200%200%2014%204.943zm-4.429%200a.572.572%200%201%200-.001-1.145.572.572%200%200%200%20.001%201.145z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-bbm {
+  width: 52px;
+  height: 52px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2252%22%20height%3D%2252%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M42.387%209.87V8.437c0-2.444-2.054-4.426-4.588-4.426H9.59C7.055%204.01%205%205.993%205%208.437v19.219c0%202.444%202.055%204.428%204.591%204.428h1.13l.007%205.82%201.555-1.303h21.929L41.854%2043l.008-6.447c2.887-.353%205.12-2.73%205.12-5.612V14.587c0-1.969-1.043-3.703-2.625-4.717h-1.97z%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cuse%20fill%3D%22%23FFF%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3Cpath%20stroke%3D%22%23FFF%22%20stroke-width%3D%224%22%20d%3D%22M44.362%207.87h.58l.494.316c2.19%201.404%203.546%203.788%203.546%206.401v16.354c0%203.277-2.119%206.091-5.122%207.179l-.011%209.159-10.364-8.678H13.01l-4.278%203.581-.008-8.153C5.504%2033.615%203%2030.933%203%2027.656V8.436c0-3.565%202.966-6.425%206.591-6.425H37.8c3.428%200%206.269%202.562%206.563%205.86z%22%2F%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M37.799%204.01H9.59C7.055%204.01%205%205.994%205%208.438v19.219c0%202.444%202.055%204.428%204.591%204.428h1.13l.007%205.82%206.95-5.82h20.12c2.535%200%204.59-1.984%204.59-4.428V8.436c0-2.443-2.055-4.425-4.59-4.425M15.163%2019.906h-3.28l.894-3.997h3.15c2.044%200%202.531.974%202.531%201.739%200%201.086-.731%202.258-3.295%202.258m1.139-6.012h-3.283l.895-3.994h3.149c2.044%200%202.532.97%202.532%201.736%200%201.088-.73%202.258-3.293%202.258m6.126%2012.269h-3.28l.894-3.997h3.151c2.043%200%202.528.971%202.528%201.743%200%201.083-.727%202.254-3.293%202.254m1.22-6.257h-3.284l.897-3.997h3.15c2.042%200%202.53.974%202.53%201.739%200%201.086-.73%202.258-3.294%202.258m1.137-6.012h-3.28l.894-3.994h3.15c2.044%200%202.53.97%202.53%201.736%200%201.088-.73%202.258-3.294%202.258m6.514%209.833h-3.283l.897-3.995h3.15c2.044%200%202.53.972%202.53%201.738%200%201.085-.73%202.257-3.294%202.257m1.222-6.26h-3.281l.897-3.996h3.149c2.042%200%202.53.971%202.53%201.739%200%201.088-.73%202.257-3.295%202.257%22%2F%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M44.357%209.87v17.846c0%203.441-2.894%206.232-6.462%206.232H18.537l-3.168%202.653h18.843L41.854%2043l.008-6.447c2.887-.353%205.12-2.73%205.12-5.612V14.587c0-1.969-1.043-3.703-2.625-4.717%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-drawer {
+  width: 24px;
+  height: 24px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20x%3D%222476%22%20y%3D%222467%22%3E%3Cpath%20fill%3D%22%230076ff%22%20d%3D%22M12%207a2%202%200%201%200%200-4%202%202%200%200%200%200%204zm0%202a2%202%200%201%200%200%204%202%202%200%200%200%200-4zm0%206a2%202%200%201%200%200%204%202%202%200%200%200%200-4z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-status--delivered {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2216%22%20height%3D%2210%22%20viewBox%3D%220%200%2016%2010%22%3E%3Cdefs%3E%3Cpath%20id%3D%22b%22%20d%3D%22M1.218%205.912L4.196%208.5l4.947-6.8%22%2F%3E%3Cfilter%20id%3D%22a%22%20width%3D%22131.5%25%22%20height%3D%22136.8%25%22%20x%3D%22-12.6%25%22%20y%3D%22-14.7%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20operator%3D%22dilate%22%20radius%3D%22.75%22%20result%3D%22shadowSpreadOuter1%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowSpreadOuter1%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20radius%3D%221%22%20result%3D%22shadowInner%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowInner%22%20result%3D%22shadowInner%22%2F%3E%3CfeComposite%20in%3D%22shadowOffsetOuter1%22%20in2%3D%22shadowInner%22%20operator%3D%22out%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3Cpath%20id%3D%22d%22%20d%3D%22M10.807%201.36h2.22c1.675%200%202.644%201.015%202.644%202.78%200%201.833-.957%202.86-2.645%202.86h-2.219V1.36zm1.18%201.007v3.625h.852c1.043%200%201.628-.64%201.628-1.832%200-1.14-.605-1.793-1.628-1.793h-.852z%22%2F%3E%3Cfilter%20id%3D%22c%22%20width%3D%22120.6%25%22%20height%3D%22117.7%25%22%20x%3D%22-5.1%25%22%20y%3D%22-4.4%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22SourceAlpha%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeComposite%20in%3D%22shadowOffsetOuter1%22%20in2%3D%22SourceAlpha%22%20operator%3D%22out%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M0%200h16v10H0z%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cuse%20fill%3D%22%23000%22%20filter%3D%22url(%23a)%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3Cuse%20stroke%3D%22%23000%22%20stroke-opacity%3D%22.4%22%20stroke-width%3D%221.5%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23000%22%3E%3Cuse%20filter%3D%22url(%23c)%22%20xlink%3Ahref%3D%22%23d%22%2F%3E%3Cuse%20fill-opacity%3D%22.4%22%20xlink%3Ahref%3D%22%23d%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-status--read {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2216%22%20height%3D%2210%22%20viewBox%3D%220%200%2016%2010%22%3E%3Cdefs%3E%3Cpath%20id%3D%22b%22%20d%3D%22M1.218%205.912L4.196%208.5l4.947-6.8%22%2F%3E%3Cfilter%20id%3D%22a%22%20width%3D%22131.5%25%22%20height%3D%22136.8%25%22%20x%3D%22-12.6%25%22%20y%3D%22-14.7%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20operator%3D%22dilate%22%20radius%3D%22.75%22%20result%3D%22shadowSpreadOuter1%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowSpreadOuter1%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20radius%3D%221%22%20result%3D%22shadowInner%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowInner%22%20result%3D%22shadowInner%22%2F%3E%3CfeComposite%20in%3D%22shadowOffsetOuter1%22%20in2%3D%22shadowInner%22%20operator%3D%22out%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3Cpath%20id%3D%22d%22%20d%3D%22M12.198%202.316v1.735h1.035c.594%200%20.941-.32.941-.864%200-.535-.367-.87-.953-.87h-1.023zm0%202.641V7h-1.18V1.363h2.367c1.239%200%202%20.688%202%201.809%200%20.719-.375%201.344-1.023%201.601L15.55%207h-1.336l-1.051-2.043h-.965z%22%2F%3E%3Cfilter%20id%3D%22c%22%20width%3D%22122.1%25%22%20height%3D%22117.7%25%22%20x%3D%22-5.5%25%22%20y%3D%22-4.4%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22SourceAlpha%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M0%200h16v10H0z%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cuse%20fill%3D%22%23000%22%20filter%3D%22url(%23a)%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3Cuse%20stroke%3D%22%230076FF%22%20stroke-width%3D%221.5%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3C%2Fg%3E%3Cg%3E%3Cuse%20fill%3D%22%23000%22%20filter%3D%22url(%23c)%22%20xlink%3Ahref%3D%22%23d%22%2F%3E%3Cuse%20fill%3D%22%230076FF%22%20xlink%3Ahref%3D%22%23d%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-status--failed {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2216%22%20height%3D%2210%22%20viewBox%3D%220%200%2016%2010%22%3E%3Cdefs%3E%3Ccircle%20id%3D%22b%22%20cx%3D%225%22%20cy%3D%225%22%20r%3D%225%22%2F%3E%3Cfilter%20id%3D%22a%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20x%3D%220%25%22%20y%3D%220%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeOffset%20in%3D%22SourceAlpha%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M0%200h16v10H0z%22%2F%3E%3Cg%3E%3Cuse%20fill%3D%22%23000%22%20filter%3D%22url(%23a)%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3Cuse%20fill%3D%22%23FE3824%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3C%2Fg%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M4.525%203A.476.476%200%200%201%205%202.5a.476.476%200%200%201%20.475.5l-.108%202.15a.368.368%200%200%201-.734%200L4.525%203zM5%206a.5.5%200%201%201%200%201%20.5.5%200%200%201%200-1z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-status--sent {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2216%22%20height%3D%2210%22%20viewBox%3D%220%200%2016%2010%22%3E%3Cdefs%3E%3Cpath%20id%3D%22b%22%20d%3D%22M1.218%205.912L4.196%208.5l4.947-6.8%22%2F%3E%3Cfilter%20id%3D%22a%22%20width%3D%22131.5%25%22%20height%3D%22136.8%25%22%20x%3D%22-12.6%25%22%20y%3D%22-14.7%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20operator%3D%22dilate%22%20radius%3D%22.75%22%20result%3D%22shadowSpreadOuter1%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowSpreadOuter1%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20radius%3D%221%22%20result%3D%22shadowInner%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowInner%22%20result%3D%22shadowInner%22%2F%3E%3CfeComposite%20in%3D%22shadowOffsetOuter1%22%20in2%3D%22shadowInner%22%20operator%3D%22out%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M0%200h16v10H0z%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cuse%20fill%3D%22%23000%22%20filter%3D%22url(%23a)%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3Cuse%20stroke%3D%22%23000%22%20stroke-opacity%3D%22.4%22%20stroke-width%3D%221.5%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-status--sending,
+.icon__i-status--pending {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2216%22%20height%3D%2210%22%20viewBox%3D%220%200%2016%2010%22%3E%3Cdefs%3E%3Crect%20id%3D%22b%22%20width%3D%227%22%20height%3D%227%22%20x%3D%22.5%22%20y%3D%22.5%22%20rx%3D%222%22%2F%3E%3Cfilter%20id%3D%22a%22%20width%3D%22128.6%25%22%20height%3D%22128.6%25%22%20x%3D%22-10.7%25%22%20y%3D%22-10.7%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20operator%3D%22dilate%22%20radius%3D%22.5%22%20result%3D%22shadowSpreadOuter1%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowSpreadOuter1%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20radius%3D%221%22%20result%3D%22shadowInner%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowInner%22%20result%3D%22shadowInner%22%2F%3E%3CfeComposite%20in%3D%22shadowOffsetOuter1%22%20in2%3D%22shadowInner%22%20operator%3D%22out%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3Cpath%20id%3D%22d%22%20d%3D%22M3.5%202.5v2%22%2F%3E%3Cfilter%20id%3D%22c%22%20width%3D%22300%25%22%20height%3D%22200%25%22%20x%3D%22-75%25%22%20y%3D%22-37.5%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20operator%3D%22dilate%22%20radius%3D%22.5%22%20result%3D%22shadowSpreadOuter1%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowSpreadOuter1%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20radius%3D%221%22%20result%3D%22shadowInner%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowInner%22%20result%3D%22shadowInner%22%2F%3E%3CfeComposite%20in%3D%22shadowOffsetOuter1%22%20in2%3D%22shadowInner%22%20operator%3D%22out%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3Cpath%20id%3D%22f%22%20d%3D%22M4%204.5h1%22%2F%3E%3Cfilter%20id%3D%22e%22%20width%3D%22300%25%22%20height%3D%22200%25%22%20x%3D%22-75%25%22%20y%3D%22-37.5%25%22%20filterUnits%3D%22objectBoundingBox%22%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20operator%3D%22dilate%22%20radius%3D%22.5%22%20result%3D%22shadowSpreadOuter1%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowSpreadOuter1%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20radius%3D%221%22%20result%3D%22shadowInner%22%2F%3E%3CfeOffset%20dx%3D%22.5%22%20dy%3D%22.5%22%20in%3D%22shadowInner%22%20result%3D%22shadowInner%22%2F%3E%3CfeComposite%20in%3D%22shadowOffsetOuter1%22%20in2%3D%22shadowInner%22%20operator%3D%22out%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowOffsetOuter1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.5%200%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M0%200h16v10H0z%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cg%20transform%3D%22translate(1%201)%22%3E%3Cuse%20fill%3D%22%23000%22%20filter%3D%22url(%23a)%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3Cuse%20stroke%3D%22%23999%22%20xlink%3Ahref%3D%22%23b%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(1%201)%22%3E%3Cuse%20fill%3D%22%23000%22%20filter%3D%22url(%23c)%22%20xlink%3Ahref%3D%22%23d%22%2F%3E%3Cuse%20stroke%3D%22%23999%22%20xlink%3Ahref%3D%22%23d%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(1%201)%22%3E%3Cuse%20fill%3D%22%23000%22%20filter%3D%22url(%23e)%22%20xlink%3Ahref%3D%22%23f%22%2F%3E%3Cuse%20stroke%3D%22%23999%22%20xlink%3Ahref%3D%22%23f%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+
+.icon__i-empty-chat {
+  width: 160px;
+  height: 124px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22124%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%23C0CED8%22%20fill-rule%3D%22nonzero%22%20d%3D%22M3.02%2078.61v-1.74L1.51%2076%200%2076.87v1.74l1.51.87zm24.23-31.09l2.93-2.45-.66-3.76L25.93%2040%2023%2042.45l.66%203.77zM72.1%203.55V1.18L70.05%200%2068%201.18v2.37l2.05%201.18zm-60.055%208.615h-1.48v-1.47a1.695%201.695%200%201%200-3.39%200v1.48h-1.48a1.695%201.695%200%200%200%200%203.39h1.49v1.48a1.695%201.695%200%201%200%203.39%200v-1.49h1.48a1.695%201.695%200%201%200%200-3.39h-.01zM156%2038.61v-1.74l1.51-.87%201.51.87v1.74l-1.51.87zm-26.07%2018.91L127%2055.07l.66-3.76%203.59-1.31%202.93%202.45-.66%203.77z%22%20opacity%3D%22.5%22%2F%3E%3Cellipse%20cx%3D%2281.5%22%20cy%3D%22119%22%20fill%3D%22%23CFDBE3%22%20rx%3D%2240.5%22%20ry%3D%225%22%2F%3E%3Cpath%20fill%3D%22%23C0CED8%22%20fill-rule%3D%22nonzero%22%20d%3D%22M106%2010.55V8.18L108.05%207l2.05%201.18v2.37l-2.05%201.18zm40.705-5.385h1.48v-1.47a1.695%201.695%200%201%201%203.39%200v1.48h1.48a1.695%201.695%200%201%201%200%203.39h-1.49v1.48a1.695%201.695%200%201%201-3.39%200v-1.49h-1.48a1.695%201.695%200%201%201%200-3.39h.01z%22%20opacity%3D%22.5%22%2F%3E%3Cg%20transform%3D%22translate(53%2027)%22%3E%3Crect%20width%3D%2256%22%20height%3D%2292%22%20fill%3D%22%23F0F0F0%22%20stroke%3D%22%2350505A%22%20stroke-width%3D%222%22%20rx%3D%228%22%2F%3E%3Cg%20stroke%3D%22%230076FF%22%20stroke-width%3D%222%22%20transform%3D%22translate(11%2024)%22%3E%3Cellipse%20cx%3D%2217.5%22%20cy%3D%2223.421%22%20rx%3D%223.043%22%20ry%3D%223.053%22%2F%3E%3Cpath%20d%3D%22M.694%207.982C4.793%203.099%2010.802.018%2017.5.018c6.753%200%2012.807%203.133%2016.908%208.086%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M4.831%2012.311C7.863%208.528%2012.413%206.123%2017.5%206.123c5.143%200%209.737%202.458%2012.768%206.314%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M8.98%2016.654c1.954-2.69%205.043-4.426%208.52-4.426%203.533%200%206.666%201.793%208.613%204.557%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fg%3E%3Cpath%20stroke%3D%22%2350505A%22%20stroke-width%3D%222%22%20d%3D%22M1%2069h54v1H1z%22%2F%3E%3Crect%20width%3D%228%22%20height%3D%221%22%20x%3D%2224%22%20y%3D%2280%22%20stroke%3D%22%23474751%22%20stroke-width%3D%224%22%20rx%3D%22.5%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}

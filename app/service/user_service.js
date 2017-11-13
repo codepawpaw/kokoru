@@ -44,7 +44,7 @@ class UserService {
         const newUserModel = await userModel.save();
 
         if (!newUserModel) {
-          throw new Error('Error adding new blog post');
+          throw new Error('Error adding new user');
         }
         return true;
       }
@@ -65,7 +65,7 @@ class UserService {
         const newUserModel = await userModel.save();
 
         if (!newUserModel) {
-          throw new Error('Error adding new blog post');
+          throw new Error('Error adding new user');
         }
         return true;
       }

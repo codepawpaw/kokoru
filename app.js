@@ -23,7 +23,7 @@ app.use('/', (req, res) => {
 });
 
 // Connect mongo database
-mongoose.connect('mongodb://root:root@ds017165.mlab.com:17165/bornevia',{ useMongoClient: true });
+mongoose.connect('mongodb://user:user@ds013405.mlab.com:13405/kokoru',{ useMongoClient: true });
 
 var server = app.listen(3000, () => {
 	console.log("Listening at port ", server.address().port);
